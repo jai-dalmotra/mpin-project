@@ -51,5 +51,29 @@ And update **run_all.sh** instructions accordingly.
 
 ## 4. File Tree Snapshot
 
-mpin_project/ ├── .github/ │ └── workflows/ci.yml ├── common/ │ ├── init.py │ ├── pin_checker.py │ └── demographics.py ├── data/common_mpin.txt ├── docs/ │ ├── architecture.md │ └── usage.md ├── src/ │ ├── CombinedTests.py ← new combined runner │ ├── PartA_CommonCheck.py │ ├── PartB_StrengthWithDemographics.py │ ├── PartC_WeaknessReasons.py │ ├── PartD_SixDigitPIN.py │ └── PartE_TestCases.py ← optional legacy tests ├── .gitignore ├── LICENSE ├── README.md └── run_all.sh
+mpin_project/
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── common/
+│   ├── __init__.py
+│   ├── pin_checker.py
+│   └── demographics.py
+├── data/
+│   └── common_mpin.txt
+├── docs/
+│   ├── architecture.md
+│   └── usage.md
+├── src/
+│   ├── CombinedTests.py          # New combined runner
+│   ├── PartA_CommonCheck.py
+│   ├── PartB_StrengthWithDemographics.py
+│   ├── PartC_WeaknessReasons.py
+│   ├── PartD_SixDigitPIN.py
+│   └── PartE_TestCases.py        # Optional legacy tests
+├── .gitignore
+├── LICENSE
+├── README.md
+└── run_all.sh
+
 
