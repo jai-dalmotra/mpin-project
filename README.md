@@ -14,6 +14,7 @@ Evaluate the strength of 4‑ and 6‑digit PINs, with optional demographic chec
 - **Part E**: 60+ automated unit tests
 
 ## Repo Layout
+```
 .github/ ← CI + templates
 common/ ← Shared logic
 data/ ← Static PIN list
@@ -23,7 +24,7 @@ src/ ← Scripts (Parts A–E)
 LICENSE ← MIT License
 README.md ← This file
 run_all.sh ← Convenience runner
-
+```
 
 ## Quickstart
 
