@@ -2,10 +2,6 @@
 
 Evaluate the strength of 4‑ and 6‑digit PINs, with optional demographic checks.
 
-## Badges
-![CI](https://github.com/jai-dalmotra/mpin_project/actions/workflows/ci.yml/badge.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-
 ## Features
 - **Part A**: Common PIN checker (4 digits)  
 - **Part B**: Strength (4 digits) with demographic DOB/spouse/anniversary  
