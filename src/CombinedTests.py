@@ -1,19 +1,20 @@
 #!/usr/bin/env python3
-"""
-CombinedTests.py
+# src/CombinedTests.py
 
-Run the MPIN project’s full test suite or individual Part tests:
-  - --part all    → run every test
-  - --part A|B|C|D → run only that Part’s tests
-"""
+import os, sys
+# Prepend the project root directory to sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
+"""
+Unified test runner. Invoke with:
+  python -m src.CombinedTests --part all
+"""
 import argparse
-import sys
 import unittest
 
+# Imports now succeed because project root is on sys.path when run via -m
 from common.pin_checker import is_common_pin
 from common.demographics import matches_any_date
-from src.PartA_CommonCheck import main as part_a_main
 from src.PartB_StrengthWithDemographics import evaluate_strength
 from src.PartC_WeaknessReasons import evaluate as evaluate_c
 from src.PartD_SixDigitPIN import evaluate_6
