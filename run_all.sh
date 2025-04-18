@@ -13,5 +13,6 @@ python src/PartC_WeaknessReasons.py || true
 echo "=== Part D ==="
 python src/PartD_SixDigitPIN.py || true
 
-echo "=== Running Combined Tests ==="
-python src/CombinedTests.py --part all
+echo "=== Combined Tests: all parts ==="
+# Use module invocation so imports work seamlessly
+python -m src.CombinedTests --part all
