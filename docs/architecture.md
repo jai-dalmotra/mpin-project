@@ -1,7 +1,31 @@
 # Architecture Overview
 
 ```
-mpin_project/ ├── .github/ # CI workflows & templates ├── common/ # Shared business logic │ ├── init.py │ ├── pin_checker.py # Loads data/common_mpin.txt and checks pins │ └── demographics.py # Parses dates and matches PIN substrings ├── data/ # Static resources │ └── common_mpin.txt # List of top common 4‑ & 6‑digit PINs ├── docs/ # This documentation │ ├── architecture.md # High‑level module map │ └── usage.md # CLI usage examples ├── src/ # Executable scripts & test runner │ ├── PartA_CommonCheck.py │ ├── PartB_StrengthWithDemographics.py │ ├── PartC_WeaknessReasons.py │ ├── PartD_SixDigitPIN.py │ ├── PartE_TestCases.py # legacy unittest suite (optional) │ └── CombinedTests.py # unified runner for all or per‑Part tests ├── .gitignore ├── LICENSE ├── README.md └── run_all.sh # Convenience wrapper
+mpin_project/
+├── .github/                      # CI workflows & templates
+│   └── workflows/
+│       └── ci.yml
+├── common/                       # Shared business logic
+│   ├── __init__.py
+│   ├── pin_checker.py            # Loads data/common_mpin.txt and checks pins
+│   └── demographics.py           # Parses dates and matches PIN substrings
+├── data/                         # Static resources
+│   └── common_mpin.txt           # List of top common 4- & 6-digit PINs
+├── docs/                         # Documentation
+│   ├── architecture.md           # High-level module map
+│   └── usage.md                  # CLI usage examples
+├── src/                          # Executable scripts & test runner
+│   ├── PartA_CommonCheck.py
+│   ├── PartB_StrengthWithDemographics.py
+│   ├── PartC_WeaknessReasons.py
+│   ├── PartD_SixDigitPIN.py
+│   ├── PartE_TestCases.py        # Legacy unittest suite (optional)
+│   └── CombinedTests.py          # Unified runner for all or per-Part tests
+├── .gitignore
+├── LICENSE
+├── README.md
+└── run_all.sh                    # Convenience wrapper
+
 ```
 
 ### Layers
