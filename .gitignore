@@ -10,47 +10,26 @@ __pycache__/
 .Python
 build/
 dist/
-downloads/
-eggs/
-.eggs/
-parts/
-sdist/
-var/
 *.egg-info/
-.installed.cfg
 
 # Virtual environments
 env/
 venv/
 .venv/
-ENV/
 
 # PyInstaller
-*.manifest
 *.spec
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# pyenv
-.python-version
-
-# pipenv
-Pipfile.lock
-
-# pytest
-.cache/
+# pytest cache
 .pytest_cache/
 
-# mypy
-.mypy_cache/
-
-# Coverage
+# Coverage reports
 .coverage
 htmlcov/
 
-# IDEs
+# IDE configs
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
