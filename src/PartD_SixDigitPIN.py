@@ -2,6 +2,12 @@
 #
 # Identical logic to Part C, but for 6-digit PINs.
 
+#!/usr/bin/env python3
+# e.g. src/PartB_StrengthWithDemographics.py
+
+import os, sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from common.pin_checker import is_common_pin
 from common.demographics import matches_any_date
 
