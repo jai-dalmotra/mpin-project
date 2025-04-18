@@ -66,12 +66,12 @@ mpin_project/
 │   ├── architecture.md
 │   └── usage.md
 ├── src/
-│   ├── CombinedTests.py          # New combined runner
+│   ├── CombinedTests.py          
 │   ├── PartA_CommonCheck.py
 │   ├── PartB_StrengthWithDemographics.py
 │   ├── PartC_WeaknessReasons.py
 │   ├── PartD_SixDigitPIN.py
-│   └── PartE_TestCases.py        # Optional legacy tests
+│   └── PartE_TestCases.py        
 ├── .gitignore
 ├── LICENSE
 ├── README.md
