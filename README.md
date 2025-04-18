@@ -50,7 +50,7 @@ And update **run_all.sh** instructions accordingly.
 ---
 
 ## 4. File Tree Snapshot
-
+```
 mpin_project/
 ├── .github/
 │   └── workflows/
@@ -75,5 +75,5 @@ mpin_project/
 ├── LICENSE
 ├── README.md
 └── run_all.sh
-
+```
 
