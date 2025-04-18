@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 set -e
 
-echo "=== Part A (manual run) ==="
+echo "=== Part A ==="
 python src/PartA_CommonCheck.py || true
 
-echo "=== Part B (manual run) ==="
+echo "=== Part B ==="
 python src/PartB_StrengthWithDemographics.py || true
 
-echo "=== Part C (manual run) ==="
+echo "=== Part C ==="
 python src/PartC_WeaknessReasons.py || true
 
-echo "=== Part D (manual run) ==="
+echo "=== Part D ==="
 python src/PartD_SixDigitPIN.py || true
 
-echo "=== Combined Tests: all parts ==="
+echo "=== Running Combined Tests ==="
 python src/CombinedTests.py --part all
